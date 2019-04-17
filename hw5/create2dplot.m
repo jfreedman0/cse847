@@ -8,4 +8,3 @@ scatter(x,y, 'filled')
 for i=1:m
     text(x(i),y(i),"   (" + x(i) + "," + y(i) + ")")
 end
-% text(-1,2,"   (-1,2)")
