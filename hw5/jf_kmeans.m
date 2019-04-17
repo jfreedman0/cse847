@@ -67,6 +67,7 @@ hold off
 % ---------------------------------------------
 
 % Spectral relaxation for k-means
+% Reference: https://towardsdatascience.com/spectral-clustering-82d3cff3d3b7
 
 adj = squareform(pdist(data));
 deg = num_points*eye(num_points);
